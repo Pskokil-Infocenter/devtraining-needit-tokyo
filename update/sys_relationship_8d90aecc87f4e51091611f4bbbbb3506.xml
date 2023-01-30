@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_relationship">
+    <sys_relationship action="INSERT_OR_UPDATE">
+        <advanced>false</advanced>
+        <apply_to/>
+        <basic_apply_to>incident</basic_apply_to>
+        <basic_query_from>incident</basic_query_from>
+        <insert_callback/>
+        <name>Incidents by same caller</name>
+        <query_from/>
+        <query_with><![CDATA[current.addQuery('caller_id', parent.caller_id);]]></query_with>
+        <reference_field/>
+        <related_list/>
+        <simple_reference>false</simple_reference>
+        <sys_class_name>sys_relationship</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-30 06:37:43</sys_created_on>
+        <sys_id>8d90aecc87f4e51091611f4bbbbb3506</sys_id>
+        <sys_name>Incidents by same caller</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_relationship_8d90aecc87f4e51091611f4bbbbb3506</sys_update_name>
+    </sys_relationship>
+    <sys_translated_text action="delete_multiple" query="documentkey=8d90aecc87f4e51091611f4bbbbb3506"/>
+</record_update>
